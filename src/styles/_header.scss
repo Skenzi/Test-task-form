@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 76px;
+    position: relative;
+    &-status {
+        position: absolute;
+        padding: 10px;
+        left: 225px;
+        top: 44px;
+        width: 57.5%;
+        background-color: #EAEAEA;
+    }
+    &-greetings-title {
+        margin-right: 123px;
+        font-size: 30px;
+    }
+}
+.greetings-title_gray {
+    color: #666;
+}
+.button-status {
+    border-bottom: 1px dotted #0C77BB;
+    color: #0C77BB;
+}

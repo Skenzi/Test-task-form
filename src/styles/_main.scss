@@ -1,0 +1,19 @@
+.m-t-40 {
+    margin-top: 40px;
+}
+.container {
+    max-width: 1170px;
+    padding: 7.69% 8.55% 8.55% 8.55%;
+    margin: 0 auto;
+    background-color: white;
+}
+.hr-line {
+    border: none;
+    height: 1px;
+    background-color: #e5e4e4;
+    margin: 32px 0;
+    width: 100%;
+}
+.form-element.is-invalid {
+    border: 1px solid #f00;
+}
